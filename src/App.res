@@ -10,6 +10,10 @@ let make = () => {
   }
 
   <div className="app">
-    { React.string("APP") }
+    <CountrySelect
+      className="country-select"
+      country=?{country}
+      onChange={onChange}
+    />
   </div>
 }
