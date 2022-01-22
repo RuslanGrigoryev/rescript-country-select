@@ -1,0 +1,30 @@
+{
+    "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+    "name": "country-select-home-task",
+    "reason": {
+      "react-jsx": 3
+    },
+    "sources": {
+      "dir": "src",
+      "subdirs": true
+    },
+    "bsc-flags": ["-bs-super-errors"],
+  
+    "package-specs": [
+      {
+        "module": "es6",
+        "in-source": true
+      }
+    ],
+    "suffix": ".bs.js",
+    "namespace": true,
+    "gentypeconfig": {
+      "language": "typescript"
+    },
+    "bs-dependencies": [
+      "@rescript/react",
+      "bs-fetch",
+      "decco"
+    ],
+    "ppx-flags": ["decco/ppx"]
+  }
