@@ -4,8 +4,8 @@
 }
 
 .country__flag {
-  width: 14px;
   height: 10px;
+  margin-right: 4px;
 }
 
 .country__name {

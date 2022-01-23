@@ -1,6 +1,6 @@
 @react.component
 let make = (~menuProps: Select.menuListProps, ~countriesListReference, ~chosenIndex) => {
-  let itemHeight = 30 
+  let itemHeight = 26 
   let selectedValues = menuProps.getValue()
   let initialIndex = selectedValues->Belt.Option.mapWithDefault(0, chosenIndex)
   let initialScrollOffset = initialIndex * itemHeight

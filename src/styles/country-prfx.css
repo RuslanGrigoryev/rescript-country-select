@@ -1,6 +1,6 @@
 /* override selector cs-prfx__* class css selector by div adding */
 div.cs-prfx__menu {
-  margin-top: -1px;
+  margin-top: -3px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   width: 230px;
@@ -23,6 +23,10 @@ div.cs-prfx__control:hover {
   border-color: hsl(0, 0%, 80%);
 }
 
+div.cs-prfx__option {
+  padding: 7px 6px;
+}
+
 .cs-prfx__placeholder,
 .cs-prfx__input {
   font-size: 14px;
@@ -34,7 +38,7 @@ div.cs-prfx__control:hover {
   position: absolute;
   z-index: 1;
 
-  left: 15px;
+  left: 10px;
 
   width: 13px;
   height: 13px;
