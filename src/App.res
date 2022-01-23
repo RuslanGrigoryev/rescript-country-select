@@ -1,5 +1,6 @@
 /* Pure css with flags in background-image */
 %%raw(`import 'flag-icon-css/css/flag-icon.min.css'`)
+%%raw(`import './styles/country-select.css'`)
 
 @react.component
 let make = () => {

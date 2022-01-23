@@ -1,0 +1,45 @@
+/* override selector cs-prfx__* class css selector by div adding */
+div.cs-prfx__menu {
+  margin-top: -1px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 230px;
+  left: 1px;
+}
+
+div.cs-prfx__control {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+div.cs-prfx__value-container {
+  padding-left: 30px;
+  position: relative;
+}
+
+div.cs-prfx__control--is-focused, 
+div.cs-prfx__control:hover {
+  box-shadow: none;
+  border-color: hsl(0, 0%, 80%);
+}
+
+.cs-prfx__placeholder,
+.cs-prfx__input {
+  font-size: 14px;
+}
+
+.cs-prfx__value-container::before {
+  content: '';
+
+  position: absolute;
+  z-index: 1;
+
+  left: 15px;
+
+  width: 13px;
+  height: 13px;
+
+  display: inline-block;
+
+  background: url('./../i/i-search.svg') no-repeat;
+}

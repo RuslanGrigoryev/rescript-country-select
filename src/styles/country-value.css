@@ -1,0 +1,18 @@
+.country__flag,
+.country__name {
+  vertical-align: middle;
+}
+
+.country__flag {
+  width: 14px;
+  height: 10px;
+}
+
+.country__name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 160px;
+  white-space: nowrap;
+  display: inline-block;
+  font-size: 14px;
+}
